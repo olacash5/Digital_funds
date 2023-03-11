@@ -1,0 +1,87 @@
+
+.fola{
+    background-color: rgba(163, 209, 209, 0.686);
+    color: #fff;
+    
+}
+.fola1{
+    height: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+.register1 > input{
+    position: relative;
+    top: 100px;
+    height: 45px;
+    width: 280px;
+    padding: 10px;
+    margin: 7px;
+    border-radius: 25px;
+    border: none;
+}
+#one{
+    text-align: center;
+    background-color: red;
+}
+.fola1 > input{
+    position: relative;
+    top: 100px;
+    height: 45px;
+    width: 280px;
+    padding: 10px;
+    margin: 7px;
+    border-radius: 25px;
+    border: none;
+}
+.forgot{
+    position: relative;
+    top: 250px;
+    left: 620px;
+}
+.register{
+    background-color: rgba(93, 195, 127, 0.644);
+    color: #fff;
+}
+.register1{
+    text-align: center;
+}
+.log{
+    color: aqua;
+}
+.contact{
+    background-color: rgba(142, 15, 15, 0.727);
+    text-align: center;
+}
+.text{
+    position: relative;
+    top: 170px;
+    right: 180px;
+    width: 550px;
+    height: 100px;
+}
+.sola{
+    display: flex;
+}
+.sola > input{
+    position: relative;
+    top: 100px;
+    height: 45px;
+    width: 270px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 25px;
+    border: none;
+    left: 375px;
+}
+#show{
+    position: absolute;
+    top: 450px;
+    width: 560px;
+    left: 380px;
+    background-color: red;
+}
+.contact1{
+    position: relative;
+    right: 500px;
+    text-decoration: none;
+}

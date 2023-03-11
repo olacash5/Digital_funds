@@ -1,0 +1,30 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/account.css' %}">
+    <title>login</title>
+</head>
+<body class="fola">
+    <a href="home.html">
+        <img src="{% static 'website/images/logo.png' %}">
+    </a>
+    <form action="login" method="post" class="fola1"> 
+        {% csrf_token %}
+        <div class="fola1">
+        <input type="text" name="username" placeholder="username"><br>
+        <input type="password" name="password" placeholder="password"><br>
+        <input type="submit" name="log in" placeholder="log in" id="one">
+        </div>
+    </form>
+    <div>
+        {% for messages in messages %}
+        <h3>{{messages}}</h3>
+        {% endfor %}
+    </div> 
+   <h4><a href="#" class="forgot">forgot password?</a></h4>
+    
+</body>
+</html>
