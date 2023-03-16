@@ -8,6 +8,7 @@
     <title>login</title>
 </head>
 <body class="fola">
+    {% block content %}
     <a href="home.html">
         <img src="{% static 'website/images/logo.png' %}">
     </a>
@@ -25,6 +26,6 @@
         {% endfor %}
     </div> 
    <h4><a href="#" class="forgot">forgot password?</a></h4>
-    
+    {% endblock content %}
 </body>
 </html>

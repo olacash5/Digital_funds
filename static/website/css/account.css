@@ -45,6 +45,12 @@
 .register1{
     text-align: center;
 }
+.register2{
+    position: relative;
+    top: 100px;
+    left: 550px;
+    color: rgb(85, 15, 15);
+}
 .log{
     color: aqua;
 }
@@ -84,4 +90,32 @@
     position: relative;
     right: 500px;
     text-decoration: none;
+}
+.wallet{
+    background-color: aqua;
+    color: #fff;
+}
+.wallet1 > input{
+    position: relative;
+    top: 100px;
+    height: 45px;
+    width: 270px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 25px;
+    border: none;
+    left: 500px;
+    text-align: center;
+}
+.submit{
+    position: relative;
+    top: 100px;
+    height: 45px;
+    width: 170px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 25px;
+    border: none;
+    left: 550px;
+    background-color: red;
 }

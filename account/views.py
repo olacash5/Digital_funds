@@ -56,3 +56,6 @@ def register(request):
 def logout(request):
     auth.logout(request)
     return redirect('home')
+
+def wallet(request):
+    return render(request, 'wallet.html')

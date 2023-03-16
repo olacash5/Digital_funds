@@ -8,6 +8,7 @@
     <title>Registeration</title>
 </head>
 <body class="register">
+    {% block content %}
     <a href="home.html" alt="#">
         <img src="{% static 'website/images/logo.png' %}" >
     </a>
@@ -22,10 +23,16 @@
         <input type="password" name="password2" placeholder="Confirm Password"><br>
         <input type="Submit" id="one">
     </form>
+    <div class="register2">
+        <p>
+            Already Have An Account?  <a href="account/login">Sign in</a>
+        </p>
+    </div>
     <div>
         {% for messages in messages %}
         <h3>{{messages}}</h3>
         {% endfor %}
     </div>
+    {% endblock content %}
 </body>
 </html>
